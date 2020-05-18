@@ -18,21 +18,23 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <nav class="container">
+      <nav class="hat">
         <a href="/"><img src="./image/logo.svg" alt="Логотип компании" /></a>
 
         <ul class="site-nav">
-          <li><a href="" class="link current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li class="item"><a href="" class="link current">Студия</a></li>
+          <li class="item">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
 
         <ul class="contacts-nav">
-          <li>
+          <li class="item">
             <img src="./image/mail.svg" alt="Почта" />
             <a href="" class="link">info@devstudio.com</a>
           </li>
-          <li>
+          <li class="item">
             <img src="./image/phone.svg" alt="Номер телефона" />
             <a href="" class="link">+38 096 111 11 11</a>
           </li>
@@ -49,9 +51,9 @@
 
       <!-- Преимущества -->
       <section class="section">
-        <div class="container">
-          <ul>
-            <li>
+        <div class="container first">
+          <ul class="flex-container">
+            <li class="flex-elements">
               <a href="" class="icons" aria-label="Значок">Значок svg</a>
               <h2 class="section-title">Внимание к деталям</h2>
               <p>
@@ -60,7 +62,7 @@
               </p>
             </li>
 
-            <li>
+            <li class="flex-elements">
               <a href="" class="icons" aria-label="Значок">Значок svg</a>
               <h2 class="section-title">Пунктуальность</h2>
               <p>
@@ -68,7 +70,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li>
+            <li class="flex-elements">
               <a href="" class="icons" aria-label="Значок">Значок svg</a>
               <h2 class="section-title">Планирование</h2>
               <p>
@@ -76,7 +78,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="flex-elements">
               <a href="" class="icons" aria-label="Значок">Значок svg</a>
               <h2 class="section-title">Современные технологии</h2>
               <p>
@@ -90,15 +92,15 @@
 
       <!-- Чем мы занимаемся -->
       <section class="section">
-        <div class="container">
+        <div class="container second">
           <h3>Чем мы занимаемся</h3>
 
-          <ul>
-            <li>
+          <ul class="flex-container">
+            <li class="flex-elements-second">
               <img src="./image/desktop.png" alt="Фото ноутбука" width="380" />
               <h4 class="section-subtitle">Десктопные приложения</h4>
             </li>
-            <li>
+            <li class="flex-elements-second">
               <img
                 src="./image/smartphone.png"
                 alt="Фото смартфона"
@@ -106,7 +108,7 @@
               />
               <h4 class="section-subtitle">Мобильные приложения</h4>
             </li>
-            <li>
+            <li class="flex-elements-second">
               <img
                 src="./image/computer.png"
                 alt="Фото компьютера"
@@ -118,19 +120,19 @@
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <h3>Наша команда</h3>
-          <ul>
-            <li>
+      <section class="section third">
+        <div class="container third">
+          <h3 class="our-team-text">Наша команда</h3>
+          <ul class="flex-container">
+            <li class="flex-elements">
               <img
                 src="./image/john's-photo.png"
                 alt="Product Designer photo"
               />
               <h4 class="section-name" lang="en">John Smith</h4>
               <p class="section-specialty" lang="en">Product Designer</p>
-              <ul>
-                <li>
+              <ul class="flex-container-team">
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -138,7 +140,7 @@
                     >Instagram</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -146,7 +148,7 @@
                     >Twitter</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -154,7 +156,7 @@
                     >Facebook</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -164,15 +166,15 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="flex-elements">
               <img
                 src="./image/marta's-photo.png"
                 alt="Frontend Developer photo"
               />
               <h4 class="section-name" lang="en">Marta Stewart</h4>
               <p class="section-specialty" lang="en">Frontend Developer</p>
-              <ul>
-                <li>
+              <ul class="flex-container-team">
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -180,7 +182,7 @@
                     >Instagram</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -188,7 +190,7 @@
                     >Twitter</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -196,7 +198,7 @@
                     >Facebook</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -206,12 +208,12 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="flex-elements">
               <img src="./image/robert's-photo.png" alt="Marketing photo" />
               <h4 class="section-name" lang="en">Robert Jakis</h4>
               <p class="section-specialty" lang="en">Marketing</p>
-              <ul>
-                <li>
+              <ul class="flex-container-team">
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -219,7 +221,7 @@
                     >Instagram</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -227,7 +229,7 @@
                     >Twitter</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -235,7 +237,7 @@
                     >Facebook</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -245,12 +247,12 @@
                 </li>
               </ul>
             </li>
-            <li>
+            <li class="flex-elements">
               <img src="./image/martin's-photo.png" alt="UI Designer photo" />
               <h4 class="section-name" lang="en">Martin Doe</h4>
               <p class="section-specialty" lang="en">UI Designer</p>
-              <ul>
-                <li>
+              <ul class="flex-container-team">
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -258,7 +260,7 @@
                     >Instagram</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -266,7 +268,7 @@
                     >Twitter</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -274,7 +276,7 @@
                     >Facebook</a
                   >
                 </li>
-                <li>
+                <li class="flex-elements-team">
                   <a
                     href=""
                     class="social-networking"
@@ -290,11 +292,11 @@
 
       <!-- Постоянные клиенты -->
       <section class="section">
-        <div class="container">
+        <div class="container fourth">
           <h3>Постоянные клиенты</h3>
 
-          <ul>
-            <li>
+          <ul class="flex-container-clients">
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -302,7 +304,7 @@
                 >Ya&Co Logo</a
               >
             </li>
-            <li>
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -310,7 +312,7 @@
                 >Tagline Here Logo</a
               >
             </li>
-            <li>
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -318,7 +320,7 @@
                 >Company Logo</a
               >
             </li>
-            <li>
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -326,7 +328,7 @@
                 >Foster Peters Logo</a
               >
             </li>
-            <li>
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -334,7 +336,7 @@
                 >Brand Logo</a
               >
             </li>
-            <li>
+            <li class="flex-elements-clients">
               <a
                 href=""
                 class="section-regulars"
@@ -348,47 +350,49 @@
     </main>
 
     <!-- Футер -->
-    <footer class="container">
-      <section>
-        <a href="/"><img src="./image/logo.svg" alt="Логотип компании" /></a>
-        <address class="address">
-          г. Киев, пр-т Леси Украинки, 26
-          <ul class="contacts-footer">
-            <li><a href="" class="contacts">info@example.com</a></li>
-            <li><a href="" class="contacts">+38 099 111 11 11</a></li>
+    <footer class="footer">
+      <section class="section-footer">
+        <div class="address-block">
+          <a href="/"><img src="./image/logo.svg" alt="Логотип компании" /></a>
+          <address class="address">
+            г. Киев, пр-т Леси Украинки, 26
+            <ul class="contacts-footer">
+              <li><a href="" class="contacts">info@example.com</a></li>
+              <li><a href="" class="contacts">+38 099 111 11 11</a></li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join-block">
+          <h4 class="our-socials">Присоединяйтесь</h4>
+          <ul class="flex-join-links">
+            <li class="flex-links">
+              <a href="" class="socials-link" aria-label="Ссылка на Instagram"
+                >Instagram</a
+              >
+            </li>
+            <li class="flex-links">
+              <a href="" class="socials-link" aria-label="Ссылка на Twitter"
+                >Twitter</a
+              >
+            </li>
+            <li class="flex-links">
+              <a href="" class="socials-link" aria-label="Ссылка на Facebook"
+                >Facebook</a
+              >
+            </li>
+            <li class="flex-links">
+              <a href="" class="socials-link" aria-label="Ссылка на LinkedIn"
+                >LinkedIn</a
+              >
+            </li>
           </ul>
-        </address>
-      </section>
+        </div>
 
-      <section class="section">
-        <h4 class="our-socials">Присоединяйтесь</h4>
-        <ul>
-          <li>
-            <a href="" class="socials-link" aria-label="Ссылка на Instagram"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a href="" class="socials-link" aria-label="Ссылка на Twitter"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a href="" class="socials-link" aria-label="Ссылка на Facebook"
-              >Facebook</a
-            >
-          </li>
-          <li>
-            <a href="" class="socials-link" aria-label="Ссылка на LinkedIn"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-
-        <section>
+        <div class="subscribe">
           <h4 class="our-socials">Подпишитесь на нашу рассылку</h4>
           <a href="" class="button secondary">Подписаться</a>
-        </section>
+        </div>
         <p class="developed">2020 | Developed by GoIT Students</p>
       </section>
     </footer>
